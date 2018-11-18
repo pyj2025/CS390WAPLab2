@@ -1,0 +1,108 @@
+
+body {
+    background-color: #444444;
+}
+
+ul {
+    border: #444444 3px;
+}
+
+
+header {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3em;
+    border-bottom: solid 2px #DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}  
+  
+footer {
+    display: flex;
+    flex-flow: row;
+    padding: 5px 20px;
+}
+
+.text-white {
+    color: white;
+}
+
+.height300 {
+    height: 450px; 
+}
+
+.resize-none {
+    resize: none;
+}
+
+.width100 {
+    width: 100%; 
+}
+
+.width75 {
+    width: 75%; 
+}
+
+.text-header {
+    font-size: 2em;
+}
+
+.padding-header {
+    padding-top: 1%;
+}
+
+.center-header {
+    text-align: center;
+}
+
+.btn-margin-top {
+    margin-top: 2%;
+}
+
+.btn-margin-right {
+    margin-right: 1%;
+}
+
+.margin-bot {
+    margin-bottom: 3%;
+}
+
+.float-right {
+    float: right;
+}
+
+.margin-left {
+    margin-left: 5px;
+}
+
+.noteElement {
+    background-color: white;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border: #444444 3px;
+}
+
+.backgroundcolor-white {
+    background-color: white;
+}
+
+.float-right-forButton{
+    display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0 0 0 145px;
+}
+#noteElementTitle {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+

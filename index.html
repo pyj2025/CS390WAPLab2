@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAB2</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>Note App</header>
+
+        <div class="row">
+            <div class="col-md-3 text-white text-header padding-header center-header">
+                <p>Your Notes</p>
+            </div>
+                
+            <div class="col-md-9 text-white text-header padding-header center-header">
+                <p>Your Notepad</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div id="noteList" class="col-md-3">
+                <input id="search-text" class="width75 margin-bot margin-left" type="text" placeholder="Search">
+                <button type="button" id="btn-Search" class="btn btn-secondary btn-sm float-right ">Search</button>
+                <br>
+                <ul id="note-list" class="width100"></ul>
+            </div>
+
+            <div class="col-md-9">
+                <input id="note-title" class="width100" type="text" placeholder="Title">
+                <br>
+                <textarea id="note-body" class="height300 width100 resize-none" type="text" placeholder="Description"></textarea>
+                <button type="button" class="btn btn-danger btn-lg btn-margin-top btn-margin-right float-right" id="btn-Delete">Delete</button>
+                <button type="button" class="btn btn-primary btn-lg btn-margin-top btn-margin-right float-right btn-Add" id="btn-Add">Add Note</button>
+                
+            </div>
+        </div>
+        
+        <script src="scripts.js"></script>
+    </body>
+</html>
